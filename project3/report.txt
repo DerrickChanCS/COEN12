@@ -1,0 +1,44 @@
+unique
+------
+                              unsorted  sorted  hash table
+GreenEggsAndHam.txt             0.004     0.003      0.003
+Macbeth.txt                     0.101     0.019      0.006
+Genesis.txt                     0.119     0.021      0.009
+HoundOfTheBaskervilles.txt      0.305     0.046      0.013
+TheWarOfTheWorlds.txt           0.422     0.058      0.013
+TreasureIsland.txt              0.375     0.056      0.013
+TheSecretGarden.txt             0.339     0.046      0.015
+TheCountOfMonteCristo.txt       4.650     0.348      0.073
+TwentyThousandLeagues.txt       0.868     0.094      0.020
+Bible.txt                       5.016     0.380      0.108
+	
+
+bincount
+--------
+                              unsorted  sorted hash table
+GreenEggsAndHam.txt             0.004    0.004      0.004
+Macbeth.txt                     0.021    0.012      0.009
+Genesis.txt                     0.027    0.014      0.011
+HoundOfTheBaskervilles.txt      0.053    0.022      0.014
+TheWarOfTheWorlds.txt           0.068    0.031      0.016
+TreasureIsland.txt              0.071    0.026      0.016
+TheSecretGarden.txt             0.067    0.027      0.017
+TheCountOfMonteCristo.txt       0.688    0.158      0.073
+TwentyThousandLeagues.txt       0.158    0.041      0.022
+Bible.txt                       0.821    0.221      0.109
+
+	
+parity
+------
+                              unsorted  sorted hash table
+GreenEggsAndHam.txt             0.004    0.004      0.003
+Macbeth.txt                     0.327    0.056      0.008
+Genesis.txt                     0.416    0.066      0.011
+HoundOfTheBaskervilles.txt      1.632    0.219      0.018
+TheWarOfTheWorlds.txt           1.920    0.244      0.019
+TreasureIsland.txt              1.994    0.259      0.019
+TheSecretGarden.txt             1.969    0.270      0.021
+TheCountOfMonteCristo.txt       37.493   4.036      0.151
+TwentyThousandLeagues.txt       4.580    0.497      0.029
+Bible.txt                       42.210   4.104      0.220
+	

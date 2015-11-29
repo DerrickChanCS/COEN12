@@ -1,0 +1,11 @@
+A printable character is written in single quotes, and a nonprintable character is written as its three-digit octal
+value. Mr. Noah Tall suggests using the isprint function declared in <ctype.h> to determine if a character is
+printable. (Admittedly, this is one of Noah’s more useful suggestions, but he does tell you to “read the man page”
+to figure out how it works.) After displaying the characters, occurrences, and bit encodings, your program will
+call Professor Loony’s pack function to perform the actual compression. If everything works correctly, you can
+uncompress your output file using gunzip and get back your original file!
+Note that, in general, a Huffman code need not be unique. For example, any of the five-bit codes listed above
+could be exchanged with one another and the result would still be correct. However, a valid Huffman code always
+minimizes the length of the encoded input. The length can be computed by multiplying the frequency of each
+character by the length of its code and summing each product. Finally, for the priority queue itself, Professor
+Loony requires you to use a binary heap, implemented using an array as discussed in class and in the text.
